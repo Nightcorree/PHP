@@ -7,16 +7,16 @@
 </head>
 <body>
     <?php
-    $equation = "4 * X = 36";
+        $equation = "4 * X = 36";
 
-    $parts = explode(' ', $equation);
+        $parts = explode(' ', $equation);
 
-    $coefficient = $parts[0];
-    $result = $parts[4];
+        $coefficient = $parts[0];
+        $result = $parts[4];
 
-    $X = $result / $coefficient;
+        $X = $result / $coefficient;
 
-    echo "Значение переменной X = $X";
+        echo "Значение переменной X = $X";
     ?> 
 </body>
 </html>
